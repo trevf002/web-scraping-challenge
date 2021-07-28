@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 import scraping
 
 app = Flask(__name__)
-app.config["MONGODB_URI"]="mongodb://localhost:27017/mars_db"
+app.config["MONGO_URI"]="mongodb://localhost:27017/mars_db"
 mongo=PyMongo(app)
 
 @app.route("/")

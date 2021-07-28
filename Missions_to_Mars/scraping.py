@@ -18,7 +18,7 @@ def scrape_all():
     "news_title":news_title,
     "news_p":news_p,
     "feature_image":feature_image(browser),
-    "mars_table":mars_table(),
+    "table":mars_table(),
     "mars_hemi":mars_hemi(browser)
   }
   browser.quit()
